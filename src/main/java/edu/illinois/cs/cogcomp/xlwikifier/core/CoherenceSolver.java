@@ -17,14 +17,13 @@ public class CoherenceSolver{
                          RankerFeatureManager fm){
     this.doc = doc;
     this.fm = fm;
+    // initialize variables
     initializeVariables();
+    // initialize constraints
     initializeConstraints();
-    solver.setMaximize(true);
-        // initialize variables
-        // initialize constraints
-        // solve
-        // set Wiki title
-
+    // solve
+    // solver.setMaximize(true);
+    // set Wiki title
   }
 
   private void initializeVariables(){
